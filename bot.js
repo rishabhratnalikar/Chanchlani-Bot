@@ -8,7 +8,7 @@ client.on('ready', () =>{
   
 })
 
-client.on('msg', msg=>{
+client.on('message', msg=>{
   
   
  if(msg.content === "taarif"){
