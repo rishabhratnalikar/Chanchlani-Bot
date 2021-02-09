@@ -12,19 +12,19 @@ client.on('message', msg=>{
   
   
  if(msg.content === "taarif"){
-    msg.reply('https://tenor.com/view/ashish-chanchlani-waah-waah-taarif-kar-raha-he-gif-18773741')
+    msg.channel.send('https://tenor.com/view/ashish-chanchlani-waah-waah-taarif-kar-raha-he-gif-18773741')
  }
   
  if(msg.content === "gussa"){
-      msg.reply('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-itnamaruga-gif-19828548')
+      msg.channel.send('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-itnamaruga-gif-19828548')
  }
   
  if(msg.content === "mazza"){
-    msg.reply('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-birijalily-dingdong-gif-19828524')
+   msg.channel.send('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-birijalily-dingdong-gif-19828524')
  }
   
  if(msg.content === "gn"){
-    msg.reply('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-goodmorning-goodnight-gif-19828592')
+   msg.channel.send('https://tenor.com/view/mishtersami-ashish-ashishchinchilani-goodmorning-goodnight-gif-19828592')
 }
           
 })
